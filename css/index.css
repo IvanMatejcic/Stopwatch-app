@@ -1,0 +1,97 @@
+p{
+    color: white;
+    font-size: 40px;
+}
+h1{
+    font-size: 50px;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+h3{
+    color: white;
+}
+
+h4{
+    color: white;
+}
+
+span{
+    color: white;
+    font-size: 40px;
+}
+
+#start{
+    padding: 15px 23px;
+    border: none;
+    color: white;
+    background-image: linear-gradient(to right , violet, darkblue);
+    border-radius: 10px;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px #000000;
+}
+#start:hover{
+    padding: 25px;
+    font-size: 25px;
+}
+
+#reset{
+    padding: 15px 23px;
+    border: none;
+    color: white;
+    background-image: linear-gradient(to right , violet, darkblue);
+    border-radius: 10px;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#reset:hover{
+    background-image: linear-gradient(to left, violet, darkblue);
+    transition: 0.35 ease-in-out;
+    transform: rotate(360deg);
+}
+
+#stop{
+    padding: 15px 23px;
+    border: none;
+    color: white;
+    background-image: linear-gradient(to right , violet, darkblue);
+    border-radius: 10px;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px #000000;
+}
+#stop:hover{
+    padding: 10px;
+    font-size: 15px;
+}
+
+body{
+    background-image: url("/img/background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+hr{
+    display: block;
+    border-color: white;
+}
+
+.main{
+    text-align: center;
+}
+
+.material-icons{
+    color: white;
+    transition-duration: 0.4s;
+}
+
+.material-icons:hover{
+    font-size: 50px;
+    color: red;
+}
